@@ -1,14 +1,14 @@
 import sqlite3
 connection=sqlite3.connect("college.db")
 
-connection.execute('''   CREATE TABLE STUDENT(
-                         ID INTEGER PRIMARY KEY AUTOINCREMENT,
-                         NAME TEXT,
-                         ROLLNUMBER INTEGER,
-                         ADMNO INTEGER,
-                         COLLEGE TEXT
+# connection.execute('''   CREATE TABLE STUDENT(
+#                          ID INTEGER PRIMARY KEY AUTOINCREMENT,
+#                          NAME TEXT,
+#                          ROLLNUMBER INTEGER,
+#                          ADMNO INTEGER,
+#                          COLLEGE TEXT
         
-);''')
+# );''')
 
 print("table created successfully")
 getName=input("Enter name: ")

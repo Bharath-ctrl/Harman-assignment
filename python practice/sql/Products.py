@@ -1,14 +1,14 @@
 #products db name, table name= productdata,,fields--prodcode, name, price, distributer name manufacturer name
 import sqlite3
 connection=sqlite3.connect("Products.db")
-connection.execute('''   CREATE TABLE PRODUCTDATA(
-                        PRODUCT_CODE INTEGER PRIMARY KEY AUTOINCREMENT,
-                        PRODUCT_NAME TEXT,
-                        PRODUCT_PRICE INTEGER,
-                        DISTRIBUTER_NAME TEXT,
-                        MANUFACTURER_NAME TEXT
-                        );''')
-print("Table created Sucessfully")
+# connection.execute('''   CREATE TABLE PRODUCTDATA(
+#                         PRODUCT_CODE INTEGER PRIMARY KEY AUTOINCREMENT,
+#                         PRODUCT_NAME TEXT,
+#                         PRODUCT_PRICE INTEGER,
+#                         DISTRIBUTER_NAME TEXT,
+#                         MANUFACTURER_NAME TEXT
+#                         );''')
+# print("Table created Sucessfully")
 getProductName=input("Enter Product name: ")
 getProductPrice=input("Enter Product Price: ")
 getDistributerName=input("Enter Distributer Name: ")
@@ -19,3 +19,4 @@ connection.execute("INSERT INTO PRODUCTDATA(PRODUCT_NAME,PRODUCT_PRICE,DISTRIBUT
 connection.commit()
 connection.close()
 print("Inserted Sucessfully")
+
