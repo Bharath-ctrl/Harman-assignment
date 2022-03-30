@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="6" skipped="6" tests="12" time="0.222" timestamp="2022-03-29T12:16:11.614874" hostname="Charlie"><testcase classname="test_Calculator" name="test_add2no[3-2-5]" time="0.001"><skipped type="pytest.skip" message="nothing">D:\harman-assignment\python practice\MArch28_pytest_unittest\Test_Calculator.py:30: nothing</skipped></testcase><testcase classname="test_Calculator" name="test_add2no[6-3-9]" time="0.001"><skipped type="pytest.skip" message="nothing">D:\harman-assignment\python practice\MArch28_pytest_unittest\Test_Calculator.py:30: nothing</skipped></testcase><testcase classname="test_Calculator" name="test_add2no[1-2-3]" time="0.001"><skipped type="pytest.skip" message="nothing">D:\harman-assignment\python practice\MArch28_pytest_unittest\Test_Calculator.py:30: nothing</skipped></testcase><testcase classname="test_Calculator" name="test_sub2no[2-5-6]" time="0.003"><failure message="assert -3 == 6">a = 2, b = 5, c = 6
+
+    @pytest.mark.parametrize('a,b,c',[(2,5,6,),(20,10,30),(7,8,6)])
+    def test_sub2no(a,b,c):
+    
+        result= Calculator.sub2no(a,b)
+&gt;       assert result == c
+E       assert -3 == 6
+
+Test_Calculator.py:42: AssertionError</failure></testcase><testcase classname="test_Calculator" name="test_sub2no[20-10-30]" time="0.002"><failure message="assert 10 == 30">a = 20, b = 10, c = 30
+
+    @pytest.mark.parametrize('a,b,c',[(2,5,6,),(20,10,30),(7,8,6)])
+    def test_sub2no(a,b,c):
+    
+        result= Calculator.sub2no(a,b)
+&gt;       assert result == c
+E       assert 10 == 30
+
+Test_Calculator.py:42: AssertionError</failure></testcase><testcase classname="test_Calculator" name="test_sub2no[7-8-6]" time="0.001"><failure message="assert -1 == 6">a = 7, b = 8, c = 6
+
+    @pytest.mark.parametrize('a,b,c',[(2,5,6,),(20,10,30),(7,8,6)])
+    def test_sub2no(a,b,c):
+    
+        result= Calculator.sub2no(a,b)
+&gt;       assert result == c
+E       assert -1 == 6
+
+Test_Calculator.py:42: AssertionError</failure></testcase><testcase classname="test_Calculator" name="test_mul2no[2-5-6]" time="0.001"><failure message="assert 10 == 6">a = 2, b = 5, c = 6
+
+    @pytest.mark.parametrize('a,b,c',[(2,5,6,),(20,10,30),(7,8,6)])
+    def test_mul2no(a,b,c):
+    
+        result= Calculator.mul2no(a,b)
+&gt;       assert result == c
+E       assert 10 == 6
+
+Test_Calculator.py:48: AssertionError</failure></testcase><testcase classname="test_Calculator" name="test_mul2no[20-10-30]" time="0.001"><failure message="assert 200 == 30">a = 20, b = 10, c = 30
+
+    @pytest.mark.parametrize('a,b,c',[(2,5,6,),(20,10,30),(7,8,6)])
+    def test_mul2no(a,b,c):
+    
+        result= Calculator.mul2no(a,b)
+&gt;       assert result == c
+E       assert 200 == 30
+
+Test_Calculator.py:48: AssertionError</failure></testcase><testcase classname="test_Calculator" name="test_mul2no[7-8-6]" time="0.001"><failure message="assert 56 == 6">a = 7, b = 8, c = 6
+
+    @pytest.mark.parametrize('a,b,c',[(2,5,6,),(20,10,30),(7,8,6)])
+    def test_mul2no(a,b,c):
+    
+        result= Calculator.mul2no(a,b)
+&gt;       assert result == c
+E       assert 56 == 6
+
+Test_Calculator.py:48: AssertionError</failure></testcase><testcase classname="test_Calculator" name="test_div2no[2-5-6]" time="0.001"><skipped type="pytest.xfail" message="" /></testcase><testcase classname="test_Calculator" name="test_div2no[20-10-30]" time="0.001"><skipped type="pytest.xfail" message="" /></testcase><testcase classname="test_Calculator" name="test_div2no[7-8-6]" time="0.003"><skipped type="pytest.xfail" message="" /></testcase></testsuite></testsuites>
